@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+PyYAML>=6.0
+pytest>=7.0
+yfinance>=0.2      # live prices for the dashboard and scripts/download_prices.py
+streamlit>=1.50    # dashboard (app.py)
+# optional
+jupyter            # only needed for notebooks/demo.ipynb

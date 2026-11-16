@@ -1,0 +1,3 @@
+=== CONCLUSION ===
+B (Equal weight) finished higher: $9,312.95 (-6.87%).
+Short TSLA in A (w = -0.174): asset fell on 19 of 38 days; the short added +1.31% in total (sum of daily r*w).

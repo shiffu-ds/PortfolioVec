@@ -1,0 +1,25 @@
+assets: [AAPL, GOOG, MSFT, AMZN, TSLA]
+
+# Holdings (shares). Negative = short position.
+holdings: [100, 50, 80, 40, -30]
+
+# Trade vector (buy +, sell -)
+trade: [10, -20, 0, 5, 10]
+
+# Data
+data:
+  source: csv            # csv | yfinance
+  path: data/raw/prices.csv
+  start: "2026-01-02"
+  end: "2026-02-27"
+
+# Two allocations to compare (each must sum to 1)
+allocations:
+  A:
+    name: "Current mix (incl. short)"
+    weights: derive_from_holdings
+  B:
+    name: "Equal weight"
+    weights: [0.2, 0.2, 0.2, 0.2, 0.2]
+
+initial_capital: 10000
